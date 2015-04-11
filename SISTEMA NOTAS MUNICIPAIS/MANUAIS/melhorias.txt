@@ -1,0 +1,12 @@
+Mudanças sistema:
+
+* onde gera o arquivo html colocar no rodapé um banner com a net da rech center.
+* formatação na planilha do excel
+* função que valida identidade, cpf e ie
+* função novo padrão habilitar o MAX
+* ponteiros
+* rastreabilidade (tabela pronta)
+* importação usuarios
+* campos obrigatório
+* tela lançamento no caixa
+* parâmetros

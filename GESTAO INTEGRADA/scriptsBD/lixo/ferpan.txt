@@ -1,0 +1,44 @@
+
+
+Ferpan nossos processos são feitos de forma convencional no papel.
+
+ até pouco tempo poderiamos fazer tud
+
+
+resas brasileiras terão que ter toda a sua gestão informatizadas, todos os seus processos e sistemas teram que ser informatizados
+ 
+O principal deles é que tudo hoje em dia é feito de forma eletronica e digital
+ 
+Desde o controle do funcinário através de biometria, passando pela emissão de de NF-e
+ 
+ 
+ Os motivos desse aumento de demanda são vários, alguns deles são
+ 
+ 
+ 
+ 
+Valor da Hora 35,00
+ 
+Proposta para trabalhar 6 horas diárias da sequinte forma:
+Horário manhã: De 06:00h as 08:00h
+Horário noite:    De 19:00h as 23:00h
+ 
+ 
+ 
+Pendências:
+-----------------------------------------------------------------------------
+- Balanceamento de carga dos links de internet.
+- Projeto e implementação do circuito interno de câmeras IP.
+- Ponto digital com biometria.
+- Desenvolvimento do Sistema de Gestão.
+- Melhorias no sistemas de manifestos.
+- Disponibilidade dos manifestos via internet.
+- Armazenamento das NF-e online.
+- Disponibilidade do BD da Ferpan via internet.
+ 
+ 
+Salários dos profissionais de TI
+
+andrea
+leonardo
+alexandre

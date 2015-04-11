@@ -1,0 +1,29 @@
+--------------------------------------------------------------------------------------------------------------------------------------------
+Telas (Setor Ger. de Resíduos Módulo Cadastros)		Revisada	Teste Incluir	Teste Excluir	Teste Alterar	Visualizar Listagem
+--------------------------------------------------------------------------------------------------------------------------------------------
+Cad. de Acondicionamento				Ok
+Cad. de Cargos						Ok
+Cad. de Empresas
+Cad. de Estados Físico					Ok
+Cad. de Manifesto de Resíduos
+Cad. de Nome Fantasia					Ok
+Cad. de Origem						Ok
+Cad. de Períodos dos Números				Ok
+Cad. de Procedência					Ok
+Cad. de Resíduos					Ok
+Cad. de Responsáveis					Ok
+Cad. de Status do Manifesto				Ok
+Cad. de Tipos de Empresas				Ok
+Cad. de Títulos dos Relat.				Ok
+Cad. de Tratamento/Disposição				Ok
+Cad. de Unidades de Medida				Ok
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+01 - Arrumar a tabela de empresa e o respectivo cadastro
+02 - Cria campo Id_Empresa na tabela de procedencia
+03 - Criar campo 4ª via entregue na tabela manifesto
+04 - Arrumar Cadastro de Manifesto
+05 - Terminar Relatório de fechamento
+06 - Terminar Relatório Manifesto (Documento)
+

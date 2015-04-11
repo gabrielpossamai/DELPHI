@@ -1,0 +1,80 @@
+ID_Emissor_Ident	Integer  
+CPF		Varchar(11)
+TelResidencia	Varchar(11)
+TelCelPessoal	Varchar(11)
+TelCelEmpresa	Varchar(11)
+ID_Sexo		Integer
+ID_Logra_Tipo	Integer
+ID_Logradouro	Integer
+Logra_Numero	Integer
+SobreNome	Varchar(30)
+Logra_Complemento	Varchar(30)
+ID_Logra_Bairro	Integer
+Logra_CEP	Varchar(8)
+LograCidade	Varchar(30)
+LograUF		Varchar(3)
+DescTratamento	Varchar(5)
+Obs		Memo
+ID_Tratamento	Integer
+DescSexo		Varchar(30)
+DescLograTipo	Varchar(5)
+DescLogradouro	Varchar(30)
+DescLograBairro	Varchar(30)
+DescOrgaoEmissor	Varchar(30)
+
+
+
+ALTER TABLE `jardimcarolina`.`usuario` MODIFY COLUMN `ID_Usuario` INT(11) NOT NULL,
+ ADD COLUMN `ID_Emissor_Ident` INTEGER AFTER `Identidade`,
+ ADD COLUMN `CPF` VARCHAR(11) AFTER `ID_Emissor_Ident`,
+ ADD COLUMN `TelResidencia` VARCHAR(11) AFTER `CPF`,
+ ADD COLUMN `TelCelPessoal` VARCHAR(11) AFTER `TelResidencia`,
+ ADD COLUMN `TelCelEmpresa` VARCHAR(11) AFTER `TelCelPessoal`,
+ ADD COLUMN `ID_Sexo` INTEGER AFTER `TelCelEmpresa`,
+ ADD COLUMN `ID_Logra_Tipo` INTEGER AFTER `ID_Sexo`,
+ ADD COLUMN `ID_Logradouro` INTEGER AFTER `ID_Logra_Tipo`,
+ ADD COLUMN `Logra_Numero` INTEGER AFTER `ID_Logradouro`,
+ ADD COLUMN `SobreNome` VARCHAR(30) AFTER `Logra_Numero`,
+ ADD COLUMN `Logra_Complemento` VARCHAR(30) AFTER `SobreNome`,
+ ADD COLUMN `ID_Logra_Bairro` INTEGER AFTER `Logra_Complemento`,
+ ADD COLUMN `Logra_CEP` VARCHAR(8) AFTER `ID_Logra_Bairro`,
+ ADD COLUMN `LograCidade` VARCHAR(30) AFTER `Logra_CEP`,
+ ADD COLUMN `LograUF` VARCHAR(3) AFTER `LograCidade`,
+ ADD COLUMN `DescTratamento` VARCHAR(5) AFTER `LograUF`,
+ ADD COLUMN `Obs` TEXT AFTER `DescTratamento`,
+ ADD COLUMN `ID_Tratamento` INTEGER AFTER `Obs`,
+ ADD COLUMN `DescSexo` VARCHAR(30) AFTER `ID_Tratamento`,
+ ADD COLUMN `DescLograTipo` VARCHAR(5) AFTER `DescSexo`,
+ ADD COLUMN `DescLogradouro` VARCHAR(30) AFTER `DescLograTipo`,
+ ADD COLUMN `DescLograBairro` VARCHAR(30) AFTER `DescLogradouro`,
+ ADD COLUMN `DescOrgaoEmissor` VARCHAR(30) AFTER `DescLograBairro`;
+
+drop table logradourotipo;
+drop table usuario_modulo_bkp;
+
+
+
+
+
+
+- ok - finalizar cadastro de sexos
+- finalizar cadastro de usuarios
+- ok -colocar botão para chamar o cadastro de orgão emissor no cadastro de usuarios.
+- ok - colocar botão para chamar o cadastro de setores no cadastro de usuarios.
+- ok - chamada ao cadastro de tipo de logradouro com erro.
+- ok - Cad. Setor
+- Cad. Orgão Emissor
+- ok - Cad. Tipos End.
+- ok - Mascaras Tel. e CPF
+- ok - Largura lookup Setor e Orgão Emissor
+- Arrumar o Grid do Cad. de Usuarios
+- ok - Arrumar Cadastro de Setores
+- Criar Cadastro de Orgão Emissor
+- Apos Incluir um usuario na tabela, incluir tambem um usuario no BD
+- ok - Arrumar Cadastro de Bairros
+- ok - Tipo, Setor, Orgão Emissor
+- ok -Arrumar Cadastro de Logradouros
+
+
+height 295
+Width 435

@@ -1,0 +1,68 @@
+********************************************************************************
+CED - Cabo Eleitoral Digital - Versão 0.0.1
+
+Desenvolvido exclusivamente para o candidato a vereador do Rio de Janeiro
+Samuel Sampaio
+********************************************************************************
+
+*****************************************************************************
+PENDENCIAS
+*****************************************************************************
+- Criar tabelas e indices.
+- Criar a tela de login, principal e abrir módulos.
+- Criar controle de usuarios( cadastro de usuarios e modulos)
+- Criar um módulo de simulação de votos.
+  Pedir o nº total de candidatos fiéis.
+  Pedir o nº de eleitores/votos que os fiéis terão que conseguir.
+  Informar o total de votos possíveis de consequir
+- Etiquetas para mala direta
+- Criar Gráficos
+
+
+=====================
+= Tabela ELEITOR    =
+=====================
+- ID_Eleitor
+- NomePrimeiro
+- NomeRestante
+- Apelido
+- LograID_Tipo
+- LograDescricao
+- LograNumero
+- LograComplemento
+- LograID_Bairro
+- LograCEP
+- LograCidade
+- LograUF
+- ID_Classificacao (Voto Fiel, Voto Certo, Voto em dúvida, Voto a conquistar)
+- ID_Sexo
+- ConquistadoPor
+- Email
+- DataNasc
+- TitNumero
+- TitZona
+- TitSecao
+- CPF
+
+==============================
+= Tabela ELEITORCLASIFICACAO =
+==============================
+- ID_Classificacao
+- Descricao
+
+==============================
+= Tabela SEXO                =
+==============================
+- ID_Sexo
+- Descricao
+
+==============================
+= Tabela BAIRRO              =
+==============================
+- ID_Bairro
+- Descricao
+
+
+
+
+

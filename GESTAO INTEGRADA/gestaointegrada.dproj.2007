@@ -1,0 +1,193 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{04813cee-5755-4943-ad67-ae5cf8c128ca}</ProjectGuid>
+    <MainSource>gestaointegrada.dpr</MainSource>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>C:\sistemas\gestaointegrada.exe</DCC_DependencyCheckOutputName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_Define>RELEASE</DCC_Define>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_Define>DEBUG</DCC_Define>
+    <DCC_ExeOutput>C:\sistemas</DCC_ExeOutput>
+    <DCC_DcuOutput>C:\projects\d2007\manifestoresiduo\dcus</DCC_DcuOutput>
+    <DCC_ObjOutput>C:\projects\d2007\manifestoresiduo\dcus</DCC_ObjOutput>
+    <DCC_HppOutput>C:\projects\d2007\manifestoresiduo\dcus</DCC_HppOutput>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType>VCLApplication</Borland.ProjectType>
+    <BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><VersionInfo><VersionInfo Name="IncludeVerInfo">False</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">1</VersionInfo><VersionInfo Name="MinorVer">0</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">0</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1046</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName"></VersionInfoKeys><VersionInfoKeys Name="FileDescription"></VersionInfoKeys><VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName"></VersionInfoKeys><VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys></VersionInfoKeys><Source><Source Name="MainSource">gestaointegrada.dpr</Source></Source></Delphi.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <ItemGroup>
+    <DelphiCompile Include="gestaointegrada.dpr">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="..\classes\Extensos.pas" />
+    <DCCReference Include="..\classes\formularios\ufrmAbrirNew.pas">
+      <Form>frmAbrirNew</Form>
+    </DCCReference>
+    <DCCReference Include="..\classes\formularios\ufrmCadGrupo.pas">
+      <Form>frmCadGrupo</Form>
+    </DCCReference>
+    <DCCReference Include="..\classes\formularios\ufrmCadModulo.pas">
+      <Form>frmCadModulo</Form>
+    </DCCReference>
+    <DCCReference Include="..\classes\formularios\ufrmCadModuloUsuario.pas">
+      <Form>frmCadModuloUsuario</Form>
+    </DCCReference>
+    <DCCReference Include="..\classes\formularios\ufrmCadSetor.pas">
+      <Form>frmCadSetor</Form>
+    </DCCReference>
+    <DCCReference Include="..\classes\formularios\ufrmCadUsuario.pas">
+      <Form>frmCadUsuario</Form>
+    </DCCReference>
+    <DCCReference Include="..\classes\formularios\ufrmLogin.pas">
+      <Form>frmLogin</Form>
+    </DCCReference>
+    <DCCReference Include="..\classes\FORMULARIOS\UFRMMANUTENCAOBD.pas">
+      <Form>frmManutencaoBD</Form>
+    </DCCReference>
+    <DCCReference Include="..\classes\FORMULARIOS\ufrmModeloMDIChild.pas">
+      <Form>frmModeloMDIChild</Form>
+    </DCCReference>
+    <DCCReference Include="..\classes\formularios\ufrmModeloRelatorio.pas">
+      <Form>frmModeloRelatorio</Form>
+    </DCCReference>
+    <DCCReference Include="..\classes\formularios\ufrmModeloRelatWizard.pas">
+      <Form>frmModeloRelatWizard</Form>
+    </DCCReference>
+    <DCCReference Include="..\classes\formularios\ufrmModPageControlWizard.pas">
+      <Form>frmModPageControlWizard</Form>
+    </DCCReference>
+    <DCCReference Include="..\classes\formularios\ufrmSobre.pas">
+      <Form>frmSobre</Form>
+    </DCCReference>
+    <DCCReference Include="..\classes\uCEP.pas" />
+    <DCCReference Include="..\classes\uVariaveisSQL_Gestao.pas" />
+    <DCCReference Include="nfe\ufrmStatus.pas">
+      <Form>frmStatus</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmAlteraNumCDFsManifesto.pas">
+      <Form>frmAlteraNumCDFsManifesto</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmCadAcond.pas">
+      <Form>frmCadAcond</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmCadCargo.pas">
+      <Form>frmCadCargo</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmCadCliente.pas">
+      <Form>frmCadCliente</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmCadEelitores.pas">
+      <Form>frmCadEelitores</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmCadEmpresa.pas">
+      <Form>frmCadEmpresa</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmCadEndereco.pas">
+      <Form>frmCadEndereco</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmCadEstadoFisico.pas">
+      <Form>frmCadEstadoFisico</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmCadManifesto.pas">
+      <Form>frmCadManifesto</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmCadManifestoAlteraSituacao.pas">
+      <Form>frmCadManifestoAlteraSituacao</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmCadManifestoEstado.pas">
+      <Form>frmCadManifestoEstado</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmCadNomeFantasia.pas">
+      <Form>frmCadNomeFantasia</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmCadNotaFiscal.pas">
+      <Form>frmCadNotaFiscal</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmCadOrgaoEmissor.pas">
+      <Form>frmCadOrgaoEmissor</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmCadOrigem.pas">
+      <Form>frmCadOrigem</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmCadPeriodoNumero.pas">
+      <Form>frmCadPeriodoNumero</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmCadPessoa.pas">
+      <Form>frmCadPessoa</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmCadProcedencia.pas">
+      <Form>frmCadProcedencia</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmCadResiduo.pas">
+      <Form>frmCadResiduo</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmCadResponsavel.pas">
+      <Form>frmCadResponsavel</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmCadSexo.pas">
+      <Form>frmCadSexo</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmCadTipoEmpresa.pas">
+      <Form>frmCadTipoEmpresa</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmCadTipoLograduro.pas">
+      <Form>frmCadTipoLograduro</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmCadTitRelat.pas">
+      <Form>frmCadTitRelat</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmCadTratamento.pas">
+      <Form>frmCadTratamento</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmCadTratDisp.pas">
+      <Form>frmCadTratDisp</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmCadUnidadeMedida.pas">
+      <Form>frmCadUnidadeMedida</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmCancEfetivaEnvioManif.pas">
+      <Form>frmCancEfetivaEnvioManif</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmEfetivaEnvioManifesto.pas">
+      <Form>frmEfetivaEnvioManifesto</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmEmissaoFatura.pas">
+      <Form>frmEmissaoFatura</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmFerramentasOpcoes.pas">
+      <Form>frmFerramentasOpcoes</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmLocalizaManifesto.pas">
+      <Form>frmLocalizaManifesto</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmLoginFerpan.pas">
+      <Form>frmLoginFerpan</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmPrincipal.pas">
+      <Form>frmPrincipal</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmRelatListaCDFPendentes.pas">
+      <Form>frmRelatListaCDFPendentes</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmRelatRetiradaResiduo.pas">
+      <Form>frmRelatRetiradaResiduo</Form>
+    </DCCReference>
+    <DCCReference Include="ufrmSobreFerpan.pas">
+      <Form>frmSobreFerpan</Form>
+    </DCCReference>
+  </ItemGroup>
+</Project>

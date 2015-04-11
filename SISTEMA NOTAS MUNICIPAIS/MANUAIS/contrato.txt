@@ -1,0 +1,144 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<table width="100%" border="0">
+  <tr>
+    <td><p><strong>:empnome</strong></p>
+      <p align="center"><strong><font size="4">CONTRATO DE FOMENTO COMERCIAL COM 
+        ENDOSSO DE T&Iacute;TULO DE CR&Eacute;DITO E OUTRAS AVEN&Ccedil;AS</font></strong></p>
+      <p><strong>N&deg;</strong> :numero</p>
+      <strong>EMPRESA</strong>: <br>
+      :clinome<br>
+      :cliendereco<br>
+      :clicidade<br>
+      <p align="justify"><strong>FACTORING</strong>: :empnome, com sede na rua 
+        :empendereco, :empbairro - :empcidade, inscrita no CGC/MF sob nr. :empcgc, 
+        representada nete ato na forma de que reciprocamente outorgam e aceitam, 
+        obrigando-se por si e seus sucessores a qualquer t&iacute;tulo.</p>
+      <p align="justify">CLAUSULA PRIMEIRA: Nos termos do presente contrato, a 
+        EMPRESA transfere &agrave; FACTORING os direitos credit&oacute;rios, presentes 
+        e futuros, relativos aos t&iacute;tulos de cr&eacute;dito no final relacionados 
+        e discriminados sendo que o presente contrato &eacute; realizado de acordo 
+        com a modalidade estabelecida no artigo nr. 1065 e seguintes do C&oacute;digo 
+        Civil Brasileiro.</p>
+      <p align="justify">CLAUSULA SEGUNDA: O Presente contrato e realizado pelo 
+        pre&ccedil;o certo e ajustado de: :valor *:extenso* totalmente satisfeito 
+        neste ato pelo que a EMPRESA da plena quita&ccedil;&atilde;o, atrav&eacute;s 
+        do cheque nr: :cheque.</p>
+      <p align="justify">CLAUSULA TERCEIRA: A EMPRESA declara que as mercadorias 
+        e/ou servi&ccedil;os que deram origem aos direitos credit&oacute;rios 
+        supra referidos, foram entregues ou prestados em perfeitas condi&ccedil;&otilde;es 
+        e com boa qualidade, encontrando-se os t&iacute;tulos de Cr&eacute;dito 
+        (devidamente aceitos pelo devedor), bem como livres e desembara&ccedil;ados 
+        de quaisquer gravames, inclusive penhora, plenamente aceito pelo devedor 
+        e avalizado em favor do emitente/sacado pelo Sr :avalista, CPF nr :cpfavalista 
+        que renuncia expressamente aos benf&iacute;cios de ordem previstos no 
+        C&oacute;digo Civil Brasileiro.</p>
+      <p align="justify">PARAGRAFO UNICO: A EMPRESA obriga-se a informar imediatamente 
+        &agrave; FACTORING qualquer reclama&ccedil;&atilde;o relativa &agrave;s 
+        mercadorias ou servi&ccedil;os que fundamentam a emiss&atilde;o dos T&iacute;tulos 
+        ce Cr&eacute;dito acima mencionados, obrigando-se a recompr&aacute;-los 
+        da FACTORING pelo seu valor nominal da emiss&atilde;o, quando para tal 
+        for solicitada, no caso de comprovada exist&ecirc;ncia de v&iacute;cios 
+        redibit&oacute;rios, evic&ccedil;&atilde;o ou execu&ccedil;&atilde;o inadequada 
+        relativa &agrave;s mercadorias ou servi&ccedil;os, a crit&eacute;rio da 
+        FACTORING. A EMPRESA responsabiliza-se civil e penalmente pelas declara&ccedil;&otilde;es 
+        acima contidas, respondendo, outrossim, pela solv&ecirc;ncia do devedor 
+        (art 1074do C&oacute;digo Civil Brasileiro), pelo que se obriga a ressarcir 
+        &agrave; FACTORING pelo valor nominal do T&iacute;tulos de Cr&eacute;dito 
+        cedidos, acrescidos de juros e corre&ccedil;&atilde;o monet&aacute;ria, 
+        bem como todas as despesas que a FACTORING houver feito para receber o 
+        seu cr&eacute;dito inclu&iacute;das ai as custas judiciais, extrajudiciais 
+        e honor&aacute;rios advocat&iacute;cios, estes, desde j&aacute; estipulados 
+        em 20% sobre o total do d&eacute;bito (art. 1075 do C&oacute;digo Civil 
+        Brasileiro).</p>
+      <p align="justify">CLAUSULA QUARTA: A EMPRESA noficar&aacute; obrigat&oacute;riamente 
+        o Devedor da cess&atilde;o de cr&eacute;dito efetuada &agrave; FACTORING 
+        e caso o pagamento venha a ser feito &agrave; EMPRESA, esta dever&aacute;, 
+        no prazo de 24 (vinte e quatro) horas, sob pena de medidas judiciais cab&iacute;veis, 
+        providenciar o encaminhamento do montante recebido para a FACTORING.</p>
+      <p align="justify">CLAUSULA QUINTA: A FACTORING informar&aacute; por escrito 
+        a liquida&ccedil;&atilde;o do(s) t&iacute;tulo(s) de cr&eacute;dito, devendo 
+        a EMPRESA devolver uma via da carta devidamente protocolada, aceitando 
+        desde j&aacute; como presta&ccedil;&atilde;o de conta do presente instrumento.</p>
+      <p align="justify">CLAUSULA SETIMA: As partes elegem o foro de :empcidade, 
+        para dirimir qualquer quest&atilde;o decorrente do presente Contrato.</p>
+      <p align="justify">E, assim, por estarem justos e acordados, firmam o presente 
+        instrumento em 02 (duas) vias igual teor e forma, na presen&ccedil;a de 
+        duas testemunhas.</p>
+      <p align="right">:empcidade, :data</p>
+      </td>
+  </tr>
+
+</table>
+<BR>
+<table width="100%" border="0">
+  <tr> 
+    <td width="50%"><div align="center">EMPRESA</div></td>
+    <td width="50%"><div align="center">FACTORING</div></td>
+  </tr>
+  <tr> 
+    <td height="50">
+<div align="center">___________________________________</div></td>
+    <td><div align="center">___________________________________</div></td>
+  </tr>
+  <tr> 
+    <td><div align="center">:clinome</div></td>
+    <td><div align="center">:empnome</div></td>
+  </tr>
+  <tr> 
+    <td><div align="center">AVALISTAS</div></td>
+    <td><div align="center">TESTEMUNHAS</div></td>
+  </tr>
+  <tr> 
+    <td height="50"> 
+      <div align="center">___________________________________</div></td>
+    <td><div align="center">___________________________________</div></td>
+  </tr>
+  <tr> 
+    <td height="50"> 
+      <div align="center">___________________________________</div></td>
+    <td><div align="center">___________________________________</div></td>
+  </tr>
+</table>
+<BR>
+<table width="100%" border="1">
+  <tr> 
+    <td width="15%"><div align="center"><strong>NUM. T&Iacute;TULO</strong></div></td>
+    <td width="46%"><strong>SACADO/ACEITANTE</strong></td>
+    <td width="20%"><div align="center"><strong>VENCIMENTO</strong></div></td>
+    <td width="19%"><div align="right"><strong>VALOR T&Iacute;TULO</strong></div></td>
+  </tr>
+  :item 
+</table>
+<br><br>
+<table width="50%" border="1" align="right">
+  <tr> 
+    <td width="62%"><div align="right"><strong>TOTAL BRUTO</strong></div></td>
+    <td width="38%"><div align="right">:bruto</div></td>
+  </tr>
+  <tr> 
+    <td><div align="right"><strong>DESAGIO</strong></div></td>
+    <td><div align="right">:desagio</div></td>
+  </tr>
+  <tr> 
+    <td><div align="right"><strong>TAXA SERVI&Ccedil;O</strong></div></td>
+    <td><div align="right">:taxa</div></td>
+  </tr>
+  <tr> 
+    <td><div align="right"><strong>VALOR I.O.F.</strong></div></td>
+    <td><div align="right">:iof</div></td>
+  </tr>
+  <tr> 
+    <td><div align="right"><strong>L&Iacute;QUIDO</strong></div></td>
+    <td><div align="right">:liquido</div></td>
+  </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:xs="http://www.w3.org/2001/XMLSchema" name="IServicosservice" targetNamespace="http://tempuri.org/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/">
+  <message name="EnviaArquivo0Request">
+    <part name="CNPJCliente" type="xs:string"/>
+    <part name="Senha" type="xs:string"/>
+    <part name="VersaoAplicativo" type="xs:string"/>
+    <part name="ChaveNFe" type="xs:string"/>
+    <part name="Tipo" type="xs:string"/>
+    <part name="Data" type="xs:base64Binary"/>
+  </message>
+  <message name="EnviaArquivo0Response">
+    <part name="return" type="xs:string"/>
+  </message>
+  <message name="EnviaEmail1Request">
+    <part name="CNPJCliente" type="xs:string"/>
+    <part name="ChaveNFE" type="xs:string"/>
+  </message>
+  <message name="EnviaEmail1Response">
+    <part name="return" type="xs:string"/>
+  </message>
+  <portType name="IServicos">
+    <operation name="EnviaArquivo">
+      <input message="tns:EnviaArquivo0Request"/>
+      <output message="tns:EnviaArquivo0Response"/>
+    </operation>
+    <operation name="EnviaEmail">
+      <input message="tns:EnviaEmail1Request"/>
+      <output message="tns:EnviaEmail1Response"/>
+    </operation>
+  </portType>
+  <binding name="IServicosbinding" type="tns:IServicos">
+    <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="EnviaArquivo">
+      <soap:operation soapAction="urn:ServicosIntf-IServicos#EnviaArquivo" style="rpc"/>
+      <input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:ServicosIntf-IServicos"/>
+      </input>
+      <output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:ServicosIntf-IServicos"/>
+      </output>
+    </operation>
+    <operation name="EnviaEmail">
+      <soap:operation soapAction="urn:ServicosIntf-IServicos#EnviaEmail" style="rpc"/>
+      <input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:ServicosIntf-IServicos"/>
+      </input>
+      <output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:ServicosIntf-IServicos"/>
+      </output>
+    </operation>
+  </binding>
+  <service name="IServicosservice">
+    <port name="IServicosPort" binding="tns:IServicosbinding">
+      <soap:address location="http://nfe.vvssistemas.com.br/NFEServices/NFEServices.exe/soap/IServicos"/>
+    </port>
+  </service>
+</definitions>
+

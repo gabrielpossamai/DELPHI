@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>...::: Rech Center :::...</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<table width="100%" height="235" border="0">
+  <tr>
+    <td><p align="right">:cidade, :data</p>
+      <p><strong>:clientenome</strong><br>
+        :clienteendereco<br>
+        :clicpf <br>
+        :clientecidade </p></td>
+  </tr>
+  <tr>
+    <td><br>
+      Prezado(s) Senhor(es):
+      <p align="justify"> Pela presente comunicamos a V. Sa. que foi comprado por nossa 
+        empresa, o t&iacute;tulo abaixo relacionado, referente as vendas mercantis 
+        e ou servi&ccedil;os, emitidas contra essa empresa por nosso cliente abaixo 
+        relacionado,no respectivo vencimento o mesmo dever&aacute; ser pago em moeda 
+        corrente nacional ou no banco abaixo indicado.</p>
+      <p align="justify"> Qualquer obje&ccedil;&atilde;o das vendas ou servi&ccedil;os, 
+        sobre o t&iacute;tulo abaixo mencionado, dever&aacute; ser comunicado 
+        a :empnome, no prazo de 24 horas. No sil&ecirc;ncio de V. Sas. Entenderemos 
+        por perfeita a opera&ccedil;&atilde;o e l&iacute;quido o t&iacute;tulo.</p>
+      <p align="justify"> Sendo o que ocorre no momento, ficamos ao seu inteiro 
+        dispor para quaiquer esclarecimentos julgados necess&aacute;rios.</p>
+      <p>Atenciosamente<br>
+      </p></td>
+  </tr>
+  <tr>
+    <td><p>&nbsp;</p>
+      <p align="center">____________________________________<br>
+        :empnome<br>
+        :empendereco<br>
+        :empcidade<br>
+        :empcnpj<br>
+      </p></td>
+  </tr>
+</table>
+<br>
+<table width="100%" border="1" align="center" cellspacing="0" bordercolor="#000000">
+  <tr>
+    <td><div align="center"><strong>BORDERO</strong></div></td>
+    <td><div align="left"><strong>BANCO</strong></div></td>
+    <td><div align="center"><strong>T&Iacute;TULO</strong></div></td>
+    <td><div align="center"><strong>VENCIMENTO</strong></div></td>
+    <td><div align="right"><strong>VALOR</strong></div></td>
+  </tr>
+  <tr> 
+    <td><div align="center">:numero</div></td>
+    <td><div align="left">:banco</div></td>
+    <td><div align="center">:cheque</div></td>
+    <td><div align="center">:vencimento</div></td>
+    <td><div align="right">:valor</div></td>
+  </tr>
+</table>
+</body>
+</html>

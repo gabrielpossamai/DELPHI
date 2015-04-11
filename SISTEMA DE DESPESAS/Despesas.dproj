@@ -1,0 +1,150 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{E0CB648A-3CF3-4163-9FFD-38E84C9C45B0}</ProjectGuid>
+			<MainSource>Despesas.dpr</MainSource>
+			<Config Condition="'$(Config)'==''">Debug</Config>
+			<DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+			<ProjectVersion>12.0</ProjectVersion>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<DCC_DependencyCheckOutputName>Despesas.exe</DCC_DependencyCheckOutputName>
+			<DCC_ImageBase>00400000</DCC_ImageBase>
+			<DCC_Platform>x86</DCC_Platform>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+			<DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<DCC_DebugInformation>false</DCC_DebugInformation>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<DCC_MapFile>3</DCC_MapFile>
+			<DCC_Define>DEBUG;madExcept;$(DCC_Define)</DCC_Define>
+		</PropertyGroup>
+		<ItemGroup>
+			<DelphiCompile Include="Despesas.dpr">
+				<MainSource>MainSource</MainSource>
+			</DelphiCompile>
+			<DCCReference Include="Uprincipal.pas">
+				<Form>FrmPrincipal</Form>
+			</DCCReference>
+			<DCCReference Include="uCadTipoDespesa.pas">
+				<Form>frmCadTipoDespesa</Form>
+			</DCCReference>
+			<DCCReference Include="uFuncoes.pas"/>
+			<DCCReference Include="uMensagens.pas">
+				<Form>FrmMensagens</Form>
+			</DCCReference>
+			<DCCReference Include="uCadDespesas.pas">
+				<Form>frmCadDespesas</Form>
+			</DCCReference>
+			<DCCReference Include="uSQL.pas">
+				<Form>FrmSQL</Form>
+			</DCCReference>
+			<DCCReference Include="uRelExtrato.pas">
+				<Form>frmRelExtrato</Form>
+			</DCCReference>
+			<DCCReference Include="uImportaExtrato.pas">
+				<Form>frmImportaExtrato</Form>
+			</DCCReference>
+			<DCCReference Include="uCadPrioridades.pas">
+				<Form>frmcadPrioridades</Form>
+			</DCCReference>
+			<DCCReference Include="uselRelBalancete.pas">
+				<Form>frmselrelBalancete</Form>
+			</DCCReference>
+			<DCCReference Include="ufechames.pas">
+				<Form>frmfechames</Form>
+			</DCCReference>
+			<DCCReference Include="uCadCredores.pas">
+				<Form>frmCadCredores</Form>
+			</DCCReference>
+			<DCCReference Include="uCadTipoPagamento.pas">
+				<Form>frmcadTipoPagamento</Form>
+			</DCCReference>
+			<DCCReference Include="uAnaliseGrafica.pas">
+				<Form>frmAnaliseGrafica</Form>
+			</DCCReference>
+			<DCCReference Include="uGrupoContatos.pas">
+				<Form>frmGrupoContato</Form>
+			</DCCReference>
+			<DCCReference Include="uContatos.pas">
+				<Form>frmContatos</Form>
+			</DCCReference>
+			<DCCReference Include="uNovoMenu.pas">
+				<Form>frmNovoMenu</Form>
+			</DCCReference>
+			<DCCReference Include="usobre.pas">
+				<Form>Form1</Form>
+			</DCCReference>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')"/>
+		<ProjectExtensions>
+			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
+			<Borland.ProjectType>VCLApplication</Borland.ProjectType>
+			<BorlandProject>
+				<Delphi.Personality>
+					<Source>
+						<Source Name="MainSource">Despesas.dpr</Source>
+					</Source>
+					<Parameters>
+						<Parameters Name="UseLauncher">False</Parameters>
+						<Parameters Name="LoadAllSymbols">True</Parameters>
+						<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+					</Parameters>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">False</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">False</VersionInfo>
+						<VersionInfo Name="MajorVer">1</VersionInfo>
+						<VersionInfo Name="MinorVer">0</VersionInfo>
+						<VersionInfo Name="Release">0</VersionInfo>
+						<VersionInfo Name="Build">0</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">1046</VersionInfo>
+						<VersionInfo Name="CodePage">1252</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName"/>
+						<VersionInfoKeys Name="FileDescription"/>
+						<VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName"/>
+						<VersionInfoKeys Name="LegalCopyright"/>
+						<VersionInfoKeys Name="LegalTrademarks"/>
+						<VersionInfoKeys Name="OriginalFilename"/>
+						<VersionInfoKeys Name="ProductName"/>
+						<VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments"/>
+					</VersionInfoKeys>
+				</Delphi.Personality>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+	</Project>

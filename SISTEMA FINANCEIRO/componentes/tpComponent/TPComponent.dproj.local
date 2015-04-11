@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2012/07/22 13:59:58.000.446,=rtl.dcp</Transaction>
+    <Transaction>2012/07/22 14:00:09.000.174,C:\Users\Thiago\Documents\RAD Studio\Projects\Package1.dproj=C:\Users\Thiago\Documents\RAD Studio\Projects\TPComponent.dproj</Transaction>
+    <Transaction>2012/07/22 14:00:26.000.516,=C:\Users\Thiago\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2012/07/22 14:00:59.000.931,=C:\Users\Thiago\Desktop\tpEdit.pas</Transaction>
+    <Transaction>2012/07/22 14:01:13.000.746,C:\Users\Thiago\Desktop\tpEdit.pas=</Transaction>
+    <Transaction>2012/07/22 14:02:59.000.910,=C:\Users\Thiago\Documents\RAD Studio\Projects\tpEdit.pas</Transaction>
+    <Transaction>2012/07/22 14:03:38.000.509,=C:\Users\Thiago\Documents\RAD Studio\Projects\tpClasses.pas</Transaction>
+    <Transaction>2012/07/22 14:05:08.000.963,=C:\Users\Thiago\Documents\RAD Studio\Projects\tpValidar.pas</Transaction>
+    <Transaction>2012/07/22 14:07:02.000.242,=C:\Users\Thiago\Documents\RAD Studio\Projects\tpString.pas</Transaction>
+    <Transaction>2012/07/22 14:09:14.000.296,=dbexpress.dcp</Transaction>
+    <Transaction>2012/07/22 14:09:14.000.277,=vcl.dcp</Transaction>
+    <Transaction>2012/07/22 14:09:14.000.291,=DbxCommonDriver.dcp</Transaction>
+    <Transaction>2012/07/22 14:09:14.000.287,=dbrtl.dcp</Transaction>
+    <Transaction>2012/07/22 14:09:14.000.301,=ASComponentes.dcp</Transaction>
+    <Transaction>2012/07/22 14:09:14.000.282,=dsnap.dcp</Transaction>
+    <Transaction>2012/07/22 14:10:48.000.660,C:\Users\Thiago\Documents\RAD Studio\Projects\TPComponent.dproj=C:\Users\Thiago\Documents\RAD Studio\Projects\TPComponent.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

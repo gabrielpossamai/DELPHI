@@ -1,0 +1,28 @@
+------------------------------------
+Criar os campos abaixo
+-----------------------------------
+- InscMunic
+- TelefoneII
+- Email
+
+4300 KB
+
+select ID_Empresa, Razaosocial, Endereco  from empresa where RazaoSocial = 'Ferpan Comercio de Metais Ltda';
+
+"Rua Rodolfo David Gomes, 180"
+Rua Prof. Rodolfo Davi Gomes, 180 - Novo Cavaleiros
+
+
+"Gj. dos Cavaleiros - Macaé - RJ - CEP 27930-470"
+
+Municipio + ' - ' +  UF + 'CEP' + CEP
+
+"Inscrição no CNPJ: 34.143.693/0003-55"
+"Inscrição Estadual: 77.526.374"
+"Inscrição Municipal: 017812-3"
+
+"Rua Rodolfo David Gomes, 180 - Gj. dos Cavaleiros"
+"Macaé - RJ - CEP 27930-470"
+"Email: ferpanmc@uol.com.br"
+
+"Tel. (22) 2757-1101 - (22) 2757-1102"

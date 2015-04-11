@@ -1,0 +1,33 @@
+Definição Pessoa
+- PrimeiroNome
+- NomeDoMeio
+- UltimoNome
+-----------------------------------------------------------
+Definição da tabela de endereços) - End
+----------------------------------------------------------
+- IdEnd
+- IdEndTipo
+- IdLograTipo
+- Logra (do Taquaral, da Agua Branca, Brasil)
+- LograNum (1 ,123, 1000)
+- Bairro
+- Municipio
+- Uf
+- Cep
+
+-----------------------------------------------------------
+Definição da tabela de tipos de logradouros) - LograTipo
+----------------------------------------------------------
+- IdLograTipo
+- Descricao (R. - Rua, Av. - Avenida, Ala - Alameda)
+
+-----------------------------------------------------------
+Definição da tabela de tipos de endereços) - EndTipo
+----------------------------------------------------------
+- IdEndTipo
+- Descricao (1 - Residencial,  2 - Cobrança, 3 - Comercial, 4 - Entrega )
+
+
+- Atrix Motorola
+
+2220

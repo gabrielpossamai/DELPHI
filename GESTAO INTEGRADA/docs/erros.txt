@@ -1,0 +1,29 @@
+---------------------------
+Debugger Exception Notification
+---------------------------
+Project gestaointegrada.exe raised exception class EConvertError with message ''''' is not a valid integer value'.
+---------------------------
+Break   Continue   Help   
+---------------------------
+
+-------------------------------------------
+---------------------------
+Error
+---------------------------
+Error!  Could not open data connection "rdtsTotalizaResiduo".  Aborting report.
+---------------------------
+OK   
+---------------------------
+
+dtvTotalizaResiduoNomeFantasia
+dtvTotalizaResiduoProcedencia
+dtvTotalizaResiduoResiduo
+dtvTotalizaResiduoTotQtde
+dtvTotalizaResiduoEndereco
+dtvTotalizaResiduoMunicipio
+dtvTotalizaResiduoUF
+dtvTotalizaResiduoResponsavel
+dtvTotalizaResiduoMostraProcedencia
+dtvTotalizaResiduoObs
+
+---------------------------------------------

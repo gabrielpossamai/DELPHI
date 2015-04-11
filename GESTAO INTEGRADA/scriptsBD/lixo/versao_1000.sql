@@ -1,0 +1,4 @@
+ALTER TABLE `ferpan`.`empresa` CHANGE COLUMN `Telefone` `Telefone1` VARCHAR(15) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL,
+ ADD COLUMN `Telefone2` VARCHAR(15) AFTER `InscEstado`,
+ ADD COLUMN `Fax` VARCHAR(15) AFTER `Telefone2`,
+ ADD COLUMN `Email` VARCHAR(30) AFTER `Fax`;

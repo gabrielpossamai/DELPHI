@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/09/30 20:01:57.000.813,=C:\Users\Allan\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/09/30 20:02:16.000.870,C:\Users\Allan\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\Allan\Dropbox\UEPG\Linguagem de programação\WinBlank\princ.dfm</Transaction>
+    <Transaction>2014/09/30 20:02:16.000.870,C:\Users\Allan\Documents\RAD Studio\Projects\Unit1.pas=C:\Users\Allan\Dropbox\UEPG\Linguagem de programação\WinBlank\princ.pas</Transaction>
+    <Transaction>2014/09/30 20:02:21.000.393,C:\Users\Allan\Documents\RAD Studio\Projects\Project1.dproj=C:\Users\Allan\Dropbox\UEPG\Linguagem de programação\WinBlank\banco_de_dados.dproj</Transaction>
+    <Transaction>2014/09/30 20:07:07.000.400,=C:\Users\Allan\Dropbox\UEPG\Linguagem de programação\WinBlank\Unit1.pas</Transaction>
+    <Transaction>2014/09/30 20:07:43.000.889,C:\Users\Allan\Dropbox\UEPG\Linguagem de programação\WinBlank\Unit1.pas=C:\Users\Allan\Dropbox\UEPG\Linguagem de programação\WinBlank\Modulo.pas</Transaction>
+    <Transaction>2014/09/30 20:07:43.000.889,C:\Users\Allan\Dropbox\UEPG\Linguagem de programação\WinBlank\Unit1.dfm=C:\Users\Allan\Dropbox\UEPG\Linguagem de programação\WinBlank\Modulo.dfm</Transaction>
+    <Transaction>2014/10/08 19:32:40.000.348,H:\winbank\princ.pas=</Transaction>
+    <Transaction>2014/10/08 19:32:46.000.819,=H:\winbank\Unit1.pas</Transaction>
+    <Transaction>2014/10/08 19:32:56.000.126,H:\winbank\princ.dfm=H:\winbank\Unit1.dfm</Transaction>
+    <Transaction>2014/10/08 19:32:56.000.126,H:\winbank\princ.pas=H:\winbank\Unit1.pas</Transaction>
+    <Transaction>2014/10/08 19:43:25.000.403,=H:\winbank\Unit1.pas</Transaction>
+    <Transaction>2014/10/08 19:43:31.000.284,H:\winbank\Cliente.dfm=H:\winbank\Unit1.dfm</Transaction>
+    <Transaction>2014/10/08 19:43:31.000.284,H:\winbank\Cliente.pas=H:\winbank\Unit1.pas</Transaction>
+    <Transaction>2014/10/15 20:54:12.000.467,C:\Users\Delphi\Desktop\winbank\banco_de_dados.dproj=C:\Users\Delphi\Desktop\winbank\WinBank.dproj</Transaction>
+    <Transaction>2014/10/15 20:54:40.000.756,C:\Users\Delphi\Desktop\winbank\Modulo.pas=C:\Users\Delphi\Desktop\winbank\DmFirebird.pas</Transaction>
+    <Transaction>2014/10/15 20:54:40.000.756,C:\Users\Delphi\Desktop\winbank\Modulo.dfm=C:\Users\Delphi\Desktop\winbank\DmFirebird.dfm</Transaction>
+    <Transaction>2014/10/15 20:58:11.000.016,C:\Users\Delphi\Desktop\winbank\DmFirebird.pas=C:\Users\Delphi\Desktop\winbank\Modulo.pas</Transaction>
+    <Transaction>2014/10/15 20:58:11.000.016,C:\Users\Delphi\Desktop\winbank\DmFirebird.dfm=C:\Users\Delphi\Desktop\winbank\Modulo.dfm</Transaction>
+    <Transaction>2014/10/21 19:35:15.907,=C:\Users\Delphi\Desktop\winbank\Unit1.pas</Transaction>
+    <Transaction>2014/10/21 19:35:23.126,C:\Users\Delphi\Desktop\winbank\Banco.pas=C:\Users\Delphi\Desktop\winbank\Unit1.pas</Transaction>
+    <Transaction>2014/10/21 19:35:23.126,C:\Users\Delphi\Desktop\winbank\Banco.dfm=C:\Users\Delphi\Desktop\winbank\Unit1.dfm</Transaction>
+    <Transaction>2014/10/21 20:11:56.377,=C:\Users\Delphi\Desktop\winbank\Unit1.pas</Transaction>
+    <Transaction>2014/10/21 20:12:00.991,C:\Users\Delphi\Desktop\winbank\Cheque.pas=C:\Users\Delphi\Desktop\winbank\Unit1.pas</Transaction>
+    <Transaction>2014/10/21 20:12:00.991,C:\Users\Delphi\Desktop\winbank\Cheque.dfm=C:\Users\Delphi\Desktop\winbank\Unit1.dfm</Transaction>
+    <Transaction>2014/10/21 21:08:11.472,=C:\Users\Delphi\Desktop\winbank\Unit1.pas</Transaction>
+    <Transaction>2014/10/21 21:08:24.949,C:\Users\Delphi\Desktop\winbank\CreateCheque.pas=C:\Users\Delphi\Desktop\winbank\Unit1.pas</Transaction>
+    <Transaction>2014/10/21 21:08:24.949,C:\Users\Delphi\Desktop\winbank\CreateCheque.dfm=C:\Users\Delphi\Desktop\winbank\Unit1.dfm</Transaction>
+    <Transaction>2014/11/04 20:22:36.716,=C:\Users\Delphi\Desktop\winbank\Unit1.pas</Transaction>
+    <Transaction>2014/11/04 20:23:18.581,C:\Users\Delphi\Desktop\winbank\BaixaCheque.dfm=C:\Users\Delphi\Desktop\winbank\Unit1.dfm</Transaction>
+    <Transaction>2014/11/04 20:23:18.581,C:\Users\Delphi\Desktop\winbank\BaixaCheque.pas=C:\Users\Delphi\Desktop\winbank\Unit1.pas</Transaction>
+    <Transaction>2014/11/05 20:55:05.665,=C:\Users\Delphi\Desktop\winbank\Unit1.pas</Transaction>
+    <Transaction>2014/11/05 20:56:26.451,=C:\Users\Delphi\Desktop\winbank\BaixaChequeUpdate.pas</Transaction>
+    <Transaction>2014/11/05 20:58:22.897,=C:\Users\Delphi\Desktop\winbank\Unit1.pas</Transaction>
+    <Transaction>2014/11/05 20:58:59.706,=C:\Users\Delphi\Desktop\winbank\Unit1.pas</Transaction>
+    <Transaction>2014/11/05 20:59:10.903,C:\Users\Delphi\Desktop\winbank\BaixaChequeUpadate.dfm=C:\Users\Delphi\Desktop\winbank\Unit1.dfm</Transaction>
+    <Transaction>2014/11/05 20:59:10.903,C:\Users\Delphi\Desktop\winbank\BaixaChequeUpadate.pas=C:\Users\Delphi\Desktop\winbank\Unit1.pas</Transaction>
+    <Transaction>2014/11/05 20:59:20.423,C:\Users\Delphi\Desktop\winbank\BaixaChequeUpadate.pas=</Transaction>
+    <Transaction>2014/11/05 20:59:23.732,=C:\Users\Delphi\Desktop\winbank\Unit1.pas</Transaction>
+    <Transaction>2014/11/05 20:59:30.304,C:\Users\Delphi\Desktop\winbank\BaixaChequeUpdate.dfm=C:\Users\Delphi\Desktop\winbank\Unit1.dfm</Transaction>
+    <Transaction>2014/11/05 20:59:30.304,C:\Users\Delphi\Desktop\winbank\BaixaChequeUpdate.pas=C:\Users\Delphi\Desktop\winbank\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

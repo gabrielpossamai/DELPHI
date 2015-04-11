@@ -1,0 +1,212 @@
+/*------------------------------------------------------------------------------
+SELECT com os totais de manifestos por empresa.
+*/------------------------------------------------------------------------------
+ SELECT   e.ID_Empresa,
+          e.RazaoSocial,
+          COUNT(m.GerID_Empresa) AS Total
+ FROM     manifesto m RIGHT JOIN empresa e ON m.GerID_Empresa = e.ID_Empresa
+ GROUP BY e.ID_Empresa
+ ORDER BY e.ID_Empresa;
+
+
+/*------------------------------------------------------------------------------
+SELECT que verifica se existe algum manifesto com o código da
+empresa sendo usado como Geradora, Transportadora ou Receptora.
+*/------------------------------------------------------------------------------
+ SELECT *
+ FROM   manifesto
+ WHERE  (GerID_Empresa   = 337)
+    OR  (TransID_Empresa = 337)
+    OR  (RecepID_Empresa = 337);
+
+
+ SELECT GerID_Empresa,
+        TransID_Empresa,
+        RecepID_Empresa
+ FROM   manifesto
+ WHERE  (GerID_Empresa   = 337)
+    OR  (TransID_Empresa = 337)
+    OR  (RecepID_Empresa = 337);
+
+
+SELECT   *
+FROM     empresa
+ORDER BY RazaoSocial;
+
+ SELECT *
+ FROM   manifesto
+ WHERE  (GerID_Empresa   = 35)
+    OR  (TransID_Empresa = 35)
+    OR  (RecepID_Empresa = 35);
+
+ SELECT GerID_Empresa,
+        TransID_Empresa,
+        RecepID_Empresa
+ FROM   manifesto
+ WHERE  (GerID_Empresa   = 35);
+
+ SELECT GerID_Empresa,
+        TransID_Empresa,
+        RecepID_Empresa
+ FROM   manifesto
+ WHERE  (TransID_Empresa = 35);
+
+ SELECT GerID_Empresa,
+        TransID_Empresa,
+        RecepID_Empresa
+ FROM   manifesto
+ WHERE  (RecepID_Empresa = 35);
+
+
+/*------------------------------------------------------------------------------
+ SELECT com os totais de registro que a Acergy Brasil S/A - Código 273
+ vai passar a ter.
+*/------------------------------------------------------------------------------
+SELECT COUNT(*) AS TOTAL
+FROM manifesto
+WHERE GerID_Empresa IN (273, 286, 292, 134, 296, 329, 327, 530, 194, 385, 338, 402, 396, 168, 167, 546, 250, 337, 636);
+
+
+
+/*------------------------------------------------------------------------------
+ UPDATEs e DELETEs para ajustar os manifestos da empresa
+ Acumuladores Moura S/A - Código 297
+*/------------------------------------------------------------------------------
+ DELETE FROM empresa
+ WHERE  ID_Empresa IN (298);
+*/------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------
+ UPDATEs e DELETEs para ajustar os manifestos da empresa
+ Acergy Brasil S/A - Código 273
+*/------------------------------------------------------------------------------
+ UPDATE manifesto
+ SET    GerID_Empresa = 273
+ WHERE GerID_Empresa IN (273, 286, 292, 134, 296, 329, 327, 530, 194, 385, 338, 402, 396, 168, 167, 546, 250, 337, 636);
+
+ UPDATE manifesto
+ SET    TransID_Empresa = 273
+ WHERE  TransID_Empresa IN (273, 286, 292, 134, 296, 329, 327, 530, 194, 385, 338, 402, 396, 168, 167, 546, 250, 337, 636);
+
+ UPDATE manifesto
+ SET    RecepID_Empresa = 273
+ WHERE  RecepID_Empresa IN (273, 286, 292, 134, 296, 329, 327, 530, 194, 385, 338, 402, 396, 168, 167, 546, 250, 337, 636);
+
+ DELETE FROM empresa
+ WHERE  ID_Empresa IN (286, 292, 134, 296, 329, 327, 530, 194, 385, 338, 402, 396, 168, 167, 546, 250, 337, 636);
+
+ UPDATE empresa
+ SET Telefone = "02227739964"
+ WHERE  ID_Empresa = "273";
+*/------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------
+ UPDATEs e DELETEs para ajustar os manifestos da empresa
+ Aces Aluguéis de Caixas Eq. - Código 270
+*/------------------------------------------------------------------------------
+ UPDATE empresa
+ SET    RazaoSocial = "Aces Aluguéis de Caixas Eq.",
+        Endereco    = "Av. 01 S/Nº Lt 256 Qd 07 Balneário",
+        Responsavel = "Maria do Socorro Pereira"
+ WHERE  ID_Empresa  = 270;
+*/------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------
+ UPDATEs e DELETEs para ajustar os manifestos da empresa
+ Água e Seco Lavanderias Ltda - Código 125
+*/------------------------------------------------------------------------------
+ UPDATE empresa
+ SET    RazaoSocial = "Água e Seco Lavanderias Ltda",
+        Endereco    = "Rua Teixeira de Gouveia nº 1157",
+        Municipio   = "Macaé",
+        Responsavel = "Sr. Adriano de Almeida Gon"
+ WHERE  ID_Empresa  = 125;
+*/------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------
+ UPDATEs e DELETEs para ajustar os manifestos da empresa
+ Aggreko Brasil Energia Ltda - Código 35
+*/------------------------------------------------------------------------------
+ UPDATE empresa
+ SET    Municipio   = "Macaé",
+        Responsavel = "Patricia Silva"
+ WHERE  ID_Empresa  = 35;
+*/------------------------------------------------------------------------------*/
+
+ /*------------------------------------------------------------------------------
+ UPDATEs e DELETEs para ajustar os manifestos da empresa
+ Alphatec Engenharia e Inspeção S/A - Código 1
+*/------------------------------------------------------------------------------
+ UPDATE manifesto
+ SET    GerID_Empresa = 1
+ WHERE GerID_Empresa IN (1, 398, 300);
+
+ UPDATE manifesto
+ SET    TransID_Empresa = 1
+ WHERE  TransID_Empresa IN (1, 398, 300);
+
+ UPDATE manifesto
+ SET    RecepID_Empresa = 1
+ WHERE  RecepID_Empresa IN (1, 398, 300);
+
+ DELETE FROM empresa
+ WHERE  ID_Empresa IN (398, 300);
+*/------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------
+ UPDATEs e DELETEs para ajustar os manifestos da empresa
+ Apliquim Equipamentos e Produtos - Código 51
+*/------------------------------------------------------------------------------
+ UPDATE empresa
+ SET    Municipio   = "Paulínia"
+ WHERE  ID_Empresa  = 51;
+*/------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------
+ UPDATEs e DELETEs para ajustar os manifestos da empresa
+ Arcoenge Ltda - Código 348
+*/------------------------------------------------------------------------------
+ UPDATE empresa
+ SET    Endereco   = "Rua José Felix, 05 - Centro"
+ WHERE  ID_Empresa  = 348;
+*/------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------
+ UPDATEs e DELETEs para ajustar os manifestos da empresa
+ B.J. Services do Brasil Ltda - Código 75
+*/------------------------------------------------------------------------------
+ UPDATE empresa
+ SET    Municipio   = "Macaé",
+        Responsavel = "Marco Oliveira"
+ WHERE  ID_Empresa  = 75;
+*/------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------
+ UPDATEs e DELETEs para ajustar os manifestos da empresa
+ Baker Hughes Centrilift - Código 395
+*/------------------------------------------------------------------------------
+ UPDATE empresa
+ SET    Municipio   = "Macaé"
+ WHERE  ID_Empresa  = 395;
+*/------------------------------------------------------------------------------*/
+
+
+
+*/------------------------------------------------------------------------------
+(314, 301, 218, 124, 38, 117, 394, 219, 220, 287, 288, 255, 221, 240, 315, 107, 362, 222, 358, 223, 289, 400, 415, 242, 228, 224, 302, 293, 37)
+
+
+ID_Fanasia  = 3
+RazaoSocial = Baker Hughes do Brasil Ltda
+
+(37, 124, 218, 219, 220, 221, 222, 223, 224, 228, 240, 242, 255, 287, 288, 289, 293, 301, 302, 314, 315, 358, 362, 394, 400, 415)
+*/------------------------------------------------------------------------------*/
+
+
+Ferpan
+(57, 370, 517, 436, 116)
+
+
+
+
+

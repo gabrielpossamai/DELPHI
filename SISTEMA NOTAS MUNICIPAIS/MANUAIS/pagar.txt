@@ -1,0 +1,37 @@
+20 reais:
+
+o valor bruto do serviços devera aparecer antes do desconto [ok]
+
+o valor total dos serviços é igual ao valor total [ok]
+
+e o IRF menor que R$ que 10,00 deverá aparecer zerado na nota. [ok]
+
+programinha ferro velho para exclusão de dados [???]
+
+no relatorio de usuarios nao sai o cabeçalho [só configurar o cabecalho]
+
+no relatorio de usuarios colocar a data da geração do relatorio [colocado data e hora]
+
+relatório de convocação filtrar a data de convocacao [ok]
+
+na nota no numero da duplicata mascara 000000 [ok]
+
+o primeiro numero da nota aquele nf da fatura q esta bem a esquerda da nota tem q puxar mais um poquinho pra esquerda [ok]
+
+aquele numero de controle la em baixo na nota tbem tem q puxar mais pra esquerda [ok]
+
+o desconto tu colocou abaixo do valor total dos servicos e tem q ser acima pq o total do serviços tem q considerar este desconto [ok]
+
+sistema de demonstração num ferro velho [ok]
+
+laboratório: nota 555 problema no arredondamento [ok]
+
+laboratório: coloca o cep no relatorio analitico de empresas [ok]
+
+apae: opção na hora de gerar os boletos precisa filtrar o mes e o ano [ok]
+
+apae: coloca a data de emissao no boleto [ok] (já tinha pedido para mim por, dai tu mando apaga, agora coloquei de volta)
+
+laboratório: erro no relatório analítico por empresa ordem código [ok]
+
+laboratório: issqn calculando errado [ok]
