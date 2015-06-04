@@ -1,0 +1,41 @@
+Como Alterar o Volume do Som do Computador Com o Delphi 
+
+A função usada para alterar o som é a waveOutSetVolume( hwo, dwVolume) que fica na unit MMSystem.
+
+Não é fácil alterar o volume com o Delphi. Não é só colocar uma TrackBar e associar com o MCI. Para alterar o volume no computador você envia uma integer tipo assim: 0x5555FFFF
+
+Os quatro dígitos F seriam o lado esquerdo do som o os quatro dígitos 5 seriam o lado direito, em diferentes computadores eles se invertem, mas este é só um exemplo.
+
+os valores vão de 0000 até FFFF, assim: 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+
+considere o A como um 10, o B como 11, o C como 12 e assim em diante até o F que seria 15, o volume máximo ou seja se você colocar 0xFFFFFFFF iria ficar os dois lados no volume máximo e se colocasse 0x00000000 iria ficar tudo mudo.
+
+Então aqui vai um exemplo:
+Insira dois Edits e um Button 
+na seção uses coloque MMSystem.
+faça o botão assim:
+
+
+
+procedure TForm1.Button1Click(Sender: TObject);
+var
+  s: string;
+begin
+  s := '0x' + Edit1.Text + Edit2.Text;
+  MMSystem.waveOutSetVolume(0, StrToInt(s));
+end;
+
+
+O 0 que você vê como primeiro parâmentro é qual o seu dispositivo de áudio você vai usar, no meu caso é o SIS 7018 Wave.
+
+Agora coloque uma música pra tocar no Windows Media Player e no Edit1 coloque o valor 0000 e no Edit2 FFFF e clique no botão, você vai perceber que um lado ficou mudo e o outro no volume máximo.
+
+Agora tente colocar no Edit1 e no Edit2 o valor 7500 e clique no botão, você vai perceber que os dois lados ficaram com o mesmo som no volume médio.
+
+Se quiser usar uma TrackBar para usar essa função, você terá que ser bom de cálculos.
+
+Boa sorte!
+
+Marcos Elias
+www.mepsites.cjb.net
+A web é sua!

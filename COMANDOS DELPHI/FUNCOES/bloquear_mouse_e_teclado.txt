@@ -1,0 +1,53 @@
+Como Bloquear Mouse e Teclado 
+
+Para testar essa dica coloque um Timer sete o interval para 5000 e um Botão e coloque o código abaixo!
+O código travará o mouse e teclado por 5 segundos!
+
+Use com cuidado e responsabilidade... Não me venha travar o mouse sem programar uma ação para destravá-lo!
+
+>> Marcos Elias
+>> www.mepsites.cjb.net
+>> A web é sua!
+
+
+unit Unit1;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, ExtCtrls, StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    Button1: TButton;
+    Timer1: TTimer;
+    procedure Button1Click(Sender: TObject);
+    procedure Timer1Timer(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+  procedure BlockInput(ABlockInput : boolean); stdcall; external 'USER32.DLL';
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+  BlockInput(True);
+  Timer1.Enabled:=True;
+end;
+
+procedure TForm1.Timer1Timer(Sender: TObject);
+begin
+  BlockInput(false);
+  Timer1.Enabled:=false;
+end;
+
+end.
+

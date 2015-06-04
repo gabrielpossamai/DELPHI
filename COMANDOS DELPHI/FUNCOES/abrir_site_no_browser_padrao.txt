@@ -1,0 +1,16 @@
+Chamar um site utilizando o navegador padrão do usuário
+
+Coloque na uses:
+
+UrlMon
+ 
+Use a função:
+
+HlinkNavigateString(nil,'http://www.mepsites.cjb.net');
+
+
+Boa navegação!
+Dica: coloque os links num lugar apropriado, encher o programa de links pode fazer com que o usuário se canse de ser forçado a acessar o site, e então deixe o programa logo.
+
+Marcos Elias
+www.mepsites.cjb.net - A web é sua!
